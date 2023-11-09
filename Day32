@@ -1,0 +1,22 @@
+
+package day32;
+
+public class Polaaaa {
+
+    public static void main(String[] args) {
+      // buat pola 15
+      
+        int c = 7;
+          
+        for (int i = 0; i < c; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print(" ");
+            }
+            System.out.println("*");
+            
+        }
+        
+     }
+  
+  }
+      
