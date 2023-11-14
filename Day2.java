@@ -1,10 +1,10 @@
 
 package pkg100.days.of.coding;
 
-public class TipeData {
+public class Day2_TipeData_bulat_dan_desimal {
 
     public static void main(String[] args) {
-       System.out.println("tipe data angka bulat dan angka desimal");
+      System.out.println("tipe data angka bulat dan angka desimal");
         long nilai = 85;
         byte umur = 20;
         short kuis = 80;
