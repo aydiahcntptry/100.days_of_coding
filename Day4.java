@@ -1,7 +1,10 @@
 
-public class OperatorPenugasan {
-    
+package pkg100.days.of.coding;
+
+public class Day4_operatorPenugasan {
+
     public static void main(String[] args) {
+        
         int angkaZ;
         int angkaA;
         
@@ -19,7 +22,7 @@ public class OperatorPenugasan {
         System.out.println("pengurangan : " + angkaA);
         
         angkaA *= angkaZ;
-        // angkaA 10 * angkaZ 20 = angkaA		 200
+        // angkaA 10 * angkaZ 20 = angkaA 200
         System.out.println("perkalian : " + angkaA);
         
         angkaA /= angkaZ;
