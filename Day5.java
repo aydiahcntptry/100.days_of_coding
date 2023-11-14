@@ -1,7 +1,9 @@
 
-public class OperatorPerbandingan {
-    
+package pkg100.days.of.coding;
+
+public class Day5_operatorPerbandingan {
     public static void main(String[] args) {
+        
         int nilaiG = 4;
         int nilaiJ = 9;
         boolean hasil;
@@ -10,31 +12,22 @@ public class OperatorPerbandingan {
         hasil = nilaiG > nilaiJ;
         System.out.println(hasil);
         
-        
         //apakah nilaiG lebih kecil nilaiJ?
         hasil = nilaiG < nilaiJ;
         System.out.println(hasil);
         
-        
-        
         //apakah nilaiG sama dengan nilaiJ?
         hasil = nilaiG == nilaiJ;
         System.out.println(hasil);
-        
-        
-        
+
         //apakah nilaiG tidak sama dengan nilaiJ?
         hasil = nilaiG != nilaiJ;
         System.out.println(hasil);
-        
-        
-        
+       
         //apakah nilaiG lebih besar sama dengan nilaiJ?
         hasil = nilaiG >= nilaiJ;
         System.out.println(hasil);
-        
-        
-        
+      
         //apakah nilaiG lebih kecil sama dengan nilaiJ?
         hasil = nilaiG <= nilaiJ;
         System.out.println(hasil);
