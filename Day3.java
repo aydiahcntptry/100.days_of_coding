@@ -1,6 +1,8 @@
 
-public class OperatorAritmatika {
-    
+package pkg100.days.of.coding;
+
+public class Day3_operatorAritmatika {
+
     public static void main(String[] args) {
         int angka = 4;
         int nilai = 9;
@@ -16,6 +18,7 @@ public class OperatorAritmatika {
         System.out.println("bagi =" + bagi);
         System.out.println("kali =" + kali);
         System.out.println("sisabagi =" + sisabagi);
+ 	
     }
     
-}	
+}
