@@ -1,14 +1,18 @@
+
+package pkg100.days.of.coding;
+
 import java.util.Scanner;
-public class Main {
-    
+
+public class Day9_nilai_MINdanMIX {
+
     public static void main(String[] args) {
-        Scanner input = new Scanner (System.in);
+        Scanner sc = new Scanner (System.in);
         
-        System.out.println("masukan angka");
-        int a = input.nextInt();
+        System.out.print("masukan angka : ");
+        int a = sc.nextInt();
         
-        System.out.println("masukan angka");
-        int b = input.nextInt();
+        System.out.print("masukan angka : ");
+        int b = sc.nextInt();
         
         int min, max;
         
@@ -17,7 +21,6 @@ public class Main {
             max = b;
             
         }else{
-            
             min = b;
             max = a;
         }
