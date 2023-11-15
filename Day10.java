@@ -1,28 +1,35 @@
+
+package pkg100.days.of.coding;
+
 import java.util.Scanner;
 
-public class Main {
+public class Day10_UangBulanan_anakKos {
+
     public static void main(String[] args) {
+      
+        Scanner sc = new Scanner (System.in);
+        
         System.out.println("___pengeluaran uang bulanan anak kosan___");
-        Scanner input = new Scanner(System.in);
-
+      
         // Meminta input
-        System.out.print("Total Masukan: Rp");
-        double TotalMasukan = input.nextDouble();
+        System.out.print("Total Masukan: Rp ");
+        double TotalMasukan = sc.nextDouble();
 
-        System.out.print("Total Pengeluaran: Rp");
-        double TotalPengeluaran = input.nextDouble();
+        System.out.print("Total Pengeluaran: Rp ");
+        double TotalPengeluaran = sc.nextDouble();
 
         // Menghitung sisa uang 
         double SisaUangBulanIni = TotalMasukan - TotalPengeluaran;
 
         // Menentukan sisa uang
         if (SisaUangBulanIni >= 0) {
-            System.out.println("Sisa uang Anda mencukupi.");
+            System.out.println("anda masih memiliki sisa uang.");
         } else {
-            System.out.println("Sisa uang Anda tidak mencukupi.");
+            System.out.println("pengeluaran anda lebih banyak dari uang masukan.");
         }
 
         // Menutup Scanner
-        input.close();
+        sc.close();
     }
 }
+    
