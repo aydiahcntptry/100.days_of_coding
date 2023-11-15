@@ -1,14 +1,21 @@
+
+package pkg100.days.of.coding;
+
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+public class Day11_menghitung_luas_dan_keliling_persegi_panjang {
 
+    public static void main(String[] args) {
+       
+        Scanner sc = new Scanner (System.in);
+        
+        // menghitung luas dan keliling persegi panjang
+       
         // Meminta input panjang dan lebar persegi panjang
         System.out.print("panjang persegi panjang: ");
-        double panjang = input.nextDouble();
+        double panjang = sc.nextDouble();
         System.out.print("lebar persegi panjang: ");
-        double lebar = input.nextDouble();
+        double lebar = sc.nextDouble();
 
         // Menghitung luas dan keliling persegi panjang
         double luas = panjang * lebar;
