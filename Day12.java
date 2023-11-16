@@ -1,21 +1,25 @@
+
+package pkg100.days.of.coding;
+
 import java.util.Scanner;
 
-public class Main {
-    
+public class Day12_menghitung_luas_dan_keliling_segitiga {
+
     public static void main(String[] args) {
+      
+        Scanner sc = new Scanner (System.in);
+        
         // menghitung luas dan keliling segitiga dengan rumus
         // Luas, Keliling
         // L = 0.5 x a x t
         // K = s + s + s
         // a = s
-        
-        Scanner input = new Scanner(System.in);
-        
+
         double L, K, a, t, s;
         System.out.print("nilai alas = ");
-        a = input.nextDouble();
+        a = sc.nextDouble();
         System.out.print("nilai tinggi = ");
-        t = input.nextDouble();
+        t = sc.nextDouble();
         
         s = a;
         L = 0.5 * (a * t);
@@ -34,3 +38,4 @@ public class Main {
     }
     
 }
+    
