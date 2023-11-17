@@ -1,4 +1,3 @@
-
 package pkg100.days.of.coding;
 
 import java.util.Scanner;
