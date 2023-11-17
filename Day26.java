@@ -1,7 +1,11 @@
-package latihan_pola;
-public class Latihan_Pola {
+
+package pkg100.days.of.coding;
+
+public class Day26_pola10 {
+
     public static void main(String[] args) {
-        // pola 10
+          // latihan pola 10
+          
         int x = 10;
         int y = x / 2;
         for (int i = 1; i <= x; i++) {
