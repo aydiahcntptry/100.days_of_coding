@@ -1,10 +1,12 @@
-package input.nilai.mahasiswa;
+
+package pkg100.days.of.coding;
 
 import java.util.Scanner;
 
-public class InputNilaiMahasiswa {
+public class Day24_inputNilaiMahasiswa {
+
     public static void main(String[] args) {
-     
+        
         //hari ini kita akan belajar input nilai mahasiswa
         //dengan menggunakan Scanner, Operator pembandingan dan percanbangan if else
         
@@ -35,8 +37,7 @@ public class InputNilaiMahasiswa {
                 nilai_akhir >= 85 ? " Sangat Baik ":
                 nilai_akhir >= 80 ? " Baik ": 
                 nilai_akhir >= 70 ? " Cukup ":
-                nilai_akhir >= 60 ? " Kurang ":        
-        "error";
+                nilai_akhir >= 60 ? " Kurang ":"error";
                 
         System.out.println("Predikat nilai anda" + predikat);  
         
@@ -52,3 +53,4 @@ public class InputNilaiMahasiswa {
     }
                 
 }
+    
