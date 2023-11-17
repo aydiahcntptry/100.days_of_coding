@@ -1,11 +1,17 @@
+
+package pkg100.days.of.coding;
+
 import java.util.Scanner;
-public class Main {
-    
+
+public class Day14_penilaian {
+
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        
+        Scanner sc = new Scanner (System.in);
+
         System.out.println("masukan karakter penilaian A/B/C/D/E : ");
         
-        char nilai = input.next().charAt(0);
+        char nilai = sc.next().charAt(0);
         
         if (nilai == 'A'){
             System.out.println("nilai anda sempurna");
