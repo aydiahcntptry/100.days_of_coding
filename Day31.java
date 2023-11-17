@@ -1,10 +1,9 @@
 
-package day31;
+package pkg100.days.of.coding;
 
-public class Polaaa {
+public class Day31_pola11 {
 
     public static void main(String[] args) {
-        
         // belajar buat pola 11 :)
         
         int angka = 6;
@@ -25,6 +24,4 @@ public class Polaaa {
        }
             
      }
-        
-       
        
