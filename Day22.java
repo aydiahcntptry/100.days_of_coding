@@ -1,11 +1,12 @@
-package warna;
+
+package pkg100.days.of.coding;
 
 import java.util.Scanner;
 
-public class Warna {
+public class Day22_PilihanWarna {
+
     public static void main(String[] args) {
-        
-       //hari ini kita belajar buat program yang sama dengan day21 tapi,
+        //hari ini kita belajar buat program yang sama dengan day21 tapi,
        //bedanya adalah kita akan program warna berdasarkan huruf 
        //M(Merah), K(kuning), H(Hijau), dan B(Biru).
        
@@ -40,3 +41,4 @@ public class Warna {
     }
     
 }
+    
