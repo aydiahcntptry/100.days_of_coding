@@ -1,10 +1,10 @@
-package Day27;
-import java.util.Scanner;
-public class Main {
-    
+
+public class Day27_angkaSatuanSampaiRibuan {
+
     public static void main(String[] args) {
         
         Scanner scan = new Scanner(System.in);
+            System.out.print("masukan angka: ");
         int nilai= scan.nextInt();
         if(nilai < 10){
             System.out.println("satuan");
@@ -12,11 +12,9 @@ public class Main {
             System.out.println("puluhan");
         }else if (nilai < 1000){
             System.out.println("ratusan");
-        }else if (nilai < 10000){
-            System.out.println("ribuan");
         }else
-            System.out.println("puluhanribu");
-            
-        
+            System.out.println("ribuan");
+      
     }
 } 
+    
