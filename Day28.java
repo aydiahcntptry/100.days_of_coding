@@ -1,9 +1,10 @@
 
-package polaangka;
+package pkg100.days.of.coding;
 
 import java.util.Scanner;
 
-public class PolaAngka {
+public class Day28_polaAngka {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         
@@ -20,8 +21,6 @@ public class PolaAngka {
         }
             System.out.println();    
             }
-            
-        }
-      
     }
     
+}
