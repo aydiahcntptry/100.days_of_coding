@@ -1,16 +1,17 @@
-package harihari;
+
+package pkg100.days.of.coding;
 
 import java.util.Scanner;
 
-public class HariHari {
+public class Day21_pilihanHariBerdasarkanAngka {
+
     public static void main(String[] args) {
-        
         //hari ini kita akan buat program hari dalam
         //seminggu berdasarkan angka 1-7
         
         // membuat variabel dan Scanner
         int angka;
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner (System.in);
         
         // mengambil input
         System.out.println("masukan angka: ");
@@ -50,3 +51,4 @@ public class HariHari {
     }
     
 }
+    
