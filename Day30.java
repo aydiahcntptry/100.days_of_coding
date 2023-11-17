@@ -1,16 +1,15 @@
 
-package DAY30;
-import java.util.*;
-public class PelajarPangkat {
+package pkg100.days.of.coding;
+import java.util.Scanner;
+public class Day30_pangkat {
 
     public static void main(String[] args) {
-        
         Scanner sc = new Scanner (System.in);
       
-        System.out.println("masukkan angka : ");
+        System.out.print("masukkan angka : ");
         int angka = sc.nextInt();
         
-        System.out.println("pangkal :");
+        System.out.print("pangkat :");
         int pangkat = sc.nextInt();
         
         int hasil =1;
