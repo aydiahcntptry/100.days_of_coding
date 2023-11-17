@@ -1,14 +1,14 @@
 
-package day32;
+package pkg100.days.of.coding;
 
-public class Polaaaa {
+public class Day32_pola15 {
 
     public static void main(String[] args) {
-      // buat pola 15
+         // buat pola 15
       
-        int c = 7;
+        int S = 7;
           
-        for (int i = 0; i < c; i++) {
+        for (int i = 0; i < S; i++) {
             for (int j = 0; j <= i; j++) {
                 System.out.print(" ");
             }
@@ -19,4 +19,4 @@ public class Polaaaa {
      }
   
   }
-      
+ 
