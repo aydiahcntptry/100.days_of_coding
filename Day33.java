@@ -1,12 +1,10 @@
 
-package day33;
-
+package pkg100.days.of.coding;
 import java.util.Scanner;
-
-public class MenuMakanan {
+public class Day33_menuMakanan {
 
     public static void main(String[] args) {
-      
+        
         // Menu makanan dengan Switch Case 
        
         Scanner scan = new Scanner (System.in);
@@ -45,3 +43,4 @@ public class MenuMakanan {
     }
     
 }
+ 
