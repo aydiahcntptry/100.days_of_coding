@@ -1,9 +1,5 @@
-package bilangan.dapat.di.bagi.pkg5;
-
-public class BilanganDapatDiBagi5 {
 
     public static void main(String[] args) {
-        
         // hari ini kita belajar tentang
         //bilangan angka 100 sampai 1 yang hanya dapat dibagi 5
         //dari besar ke kecil
@@ -24,4 +20,5 @@ public class BilanganDapatDiBagi5 {
             
         }
             
-        }
+     }
+    
