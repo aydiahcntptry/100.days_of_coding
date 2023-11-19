@@ -1,13 +1,14 @@
 
-public class Main {
-    
+package pkg100.days.of.coding;
+
+public class Day20_jumlahKelibatan3 {
     public static void main(String[] args) {
         int jumlahKelipatan = 0;
         
-        for (int i = 1; i <= 100; i++) {
-            if (i % 3 == 0 || i % 5 == 0) {
-                jumlahKelipatan +=i;
-                System.out.println("jumlah kelipatan 3 dan 5 antara 1 sampai 100 adalah : " + jumlahKelipatan);
+        for (int i = 0; i <= 30; i++) {
+            if (i % 3 == 0) {
+                System.out.println(i + " ");
+
             }
         }
     }
