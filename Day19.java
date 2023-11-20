@@ -1,26 +1,25 @@
 
-public class main {
-    
+package pkg100.days.of.coding;
+
+public class Day19_perulanganFor {
+
     public static void main(String[] args) {
-        // bilangan prima
-        // mencari prima sampai batas 20
-         
-        int batas = 20; 
+
+        int a = 10;
+        int b = 1;
+        int total = 0;
         
-        for (int i = 0; i <= 20; i++){
-            if (i==2){
-                System.out.println(i);
+        for (int i = a; i >= b; i--) {
+            System.out.print(i);
+            total +=i;
+            
+            if (i>b){
+                System.out.print(" + ");
+            }else{
+                System.out.print(" = ");
             }
-            for (int j = 2; j < i; j++){
-                if (i%j==0){
-                    break;
-                }else{
-                    System.out.println(i);
-                    break;
-                }
-            }    
         }
-        
+        System.out.println(total);
     }
     
 }
