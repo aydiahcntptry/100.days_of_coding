@@ -15,7 +15,7 @@ public class Day51_operatorTernary {
         System.out.print("apa anda memiliki SIM ? (true/false) : ");
         boolean memilikiSIM = sc.nextBoolean();
         
-        String usia = umur >= 18 ? "boleh mengemudi" : "tidak boleh mengemudi";
+        String usia = umur >= 18 ? ( memilikiSIM ? "boleh mengemudi" : "tidak boleh mengemudi"): "belum boleh mengemudi";
         
         System.out.println(umur + " tahun " + usia);
 
