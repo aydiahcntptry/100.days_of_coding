@@ -13,7 +13,7 @@ public class Day65_array {
         
         System.out.println("Cara 1. Menggunakan Arrays.deepToString ");
         System.out.println(Arrays.deepToString(nilai));
-        
+
         System.out.println("Cara 2. Menggunakan cara for");
         
         for (int i = 0; i < nilai.length; i++) {
