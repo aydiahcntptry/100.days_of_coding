@@ -16,7 +16,7 @@ public class Day71_array {
             String namaHari = hari[nomorHari - 1];
             System.out.println("Nama hari untuk nomor " + nomorHari + " adalah: " + namaHari);
         } else {
-            System.out.println("Nomor hari tidak valid. Harap masukkan nomor antara 1 dan 7.");
+            System.out.println("Nomor hari tidak valid. Harap masukkan nomor antara 1 - 7");
         }
         sc.close();
     }
