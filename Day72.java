@@ -29,7 +29,7 @@ public class Day72_array {
             for (int j = 0; j < 3; j++) {
                 System.out.print(dataMahasiswa[i][j] + " ");
             }
-            System.out.println("");
+            System.out.println();
         }
     }
     
