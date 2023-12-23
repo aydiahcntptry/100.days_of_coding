@@ -14,7 +14,7 @@ public class Day76_ {
         while(angka % 2 == 0){
             System.out.println("genap");
             
-            System.out.print("masukan nilai :");
+            System.out.print("masukan angka :");
             angka = sc.nextInt();
             
         while (angka % 2 == 1){
