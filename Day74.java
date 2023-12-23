@@ -22,7 +22,9 @@ public class Day74_array {
 
         }
         System.out.println("========================================3");
-        System.out.println(Arrays.deepToString(nilai));
+        System.out.println(Arrays.toString(nilai[0]));
+        System.out.println(Arrays.toString(nilai[1]));
+        System.out.println(Arrays.toString(nilai[2]));
         System.out.println("hasil perjumlahan isi array : " + total);
     }
     
