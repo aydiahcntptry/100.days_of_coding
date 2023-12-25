@@ -1,7 +1,7 @@
 package pkg100.days.of.coding;
 
 public class Day78_ {
-
+ 
     public static void main(String[] args) {
         
         int[][] nilai = {
