@@ -15,7 +15,7 @@ public class Day79_ {
         
         for (int i = 0; i < jumlahBaris; i++) {
             int angkaTerakhir = nilai[i][jumlahKolom - 1 ];
-            System.out.println("angka terakhir di kolom ke : " + (i + 1) + " = " + angkaTerakhir);
+            System.out.println("angka terakhir di baris ke : " + (i + 1) + " = " + angkaTerakhir);
             
         }
     }
