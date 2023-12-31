@@ -1,5 +1,4 @@
 package pkg100.days.of.coding;
-
 import java.util.Scanner;
 
 public class Day84_ {
@@ -23,7 +22,7 @@ public class Day84_ {
                 buahZ[j++] = buah[i];
             }
         }
-        System.out.println("HASIL SETELAH PENGHAPUSAN INDEKS : ");
+        System.out.println("HASIL SETELAH PENGHAPUSAN INDEKS");
         for (String buahan : buahZ) {
             System.out.println(buahan);
             
