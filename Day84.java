@@ -1,5 +1,4 @@
 package pkg100.days.of.coding;
-
 import java.util.Scanner;
 
 public class Day84_ {
