@@ -1,4 +1,5 @@
 package pkg100.days.of.coding;
+
 import java.util.Scanner;
 
 public class Day84_ {
@@ -27,7 +28,7 @@ public class Day84_ {
             System.out.println(buahan);
             
         }
-        System.out.println("");
+
     }
     
 }
