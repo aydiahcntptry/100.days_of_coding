@@ -19,7 +19,7 @@ public class Day89_ {
         
         // tambah elemen array
         System.out.println("===TAMBAH ELEMEN ARRAY===");
-        warna.add(2,"hijau");
+        warna.add(3,"hijau");
         System.out.println(warna);
         
         // menghapus elemen array
