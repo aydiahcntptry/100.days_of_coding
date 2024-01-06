@@ -1,8 +1,10 @@
 package pkg100.days.of.coding;
-
+ 
 import java.util.Scanner;
 
 public class Day88_ {
+    
+    // input nilai ipk mahasiswa
     
     public static void nilaiIPK(double ipk){
         System.out.print("Mahasiswa dengan IPK " + ipk + " : ");
