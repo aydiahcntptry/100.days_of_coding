@@ -9,6 +9,8 @@ public class Day100_ {
         /*mengecek kata/nomor palindrome atau bukan
         kata palindrome adalah kata-kata yang dapat dibaca
         baik dari depan maupun dari belakang*/
+
+        System.out.println("=====mengecek kata/nomor palindrome atau bukan=====");
         
         String kata, balik = "";
         
